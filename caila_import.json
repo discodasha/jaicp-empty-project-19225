@@ -1,20 +1,45 @@
 {
   "project" : {
-    "id" : "empty-1000001-NBv",
-    "name" : "empty-1000001-NBv",
+    "id" : "dasha_zb_19225-250696339-VHs",
+    "name" : "dasha_zb_19225-250696339-VHs",
     "folder" : "/jaicp"
   },
   "settings" : {
     "language" : "ru",
     "spellingCorrection" : false,
     "classificationAlgorithm" : "sts",
-    "timezone" : "UTC",
+    "timezone" : "Europe/Moscow",
     "extendedSettings" : {
+      "tokenizerEngine" : "mystem",
       "useShared" : false
     },
     "shared" : false
   },
-  "intents" : [ ],
+  "intents" : [ {
+    "id" : 12360096,
+    "path" : "/пока",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
+    "id" : 12360097,
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  } ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
   "spellerDictionary" : [ ],
