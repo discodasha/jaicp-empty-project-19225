@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "dasha_zb_19225-250696339-VHs",
-    "name" : "dasha_zb_19225-250696339-VHs",
+    "id" : "dasha_zb_19225-1000001-btT",
+    "name" : "dasha_zb_19225-1000001-btT",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -16,28 +16,22 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 12360096,
+    "id" : 4404,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
       "text" : "пока"
     } ],
-    "classificationRules" : {
-      "refs" : [ ]
-    },
     "priority" : 0
   }, {
-    "id" : 12360097,
+    "id" : 4405,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
       "text" : "привет"
     } ],
-    "classificationRules" : {
-      "refs" : [ ]
-    },
     "priority" : 0
   } ],
   "entities" : [ ],
